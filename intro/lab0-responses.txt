@@ -2,22 +2,15 @@ Intro: Responses
 ================
 
 D. Install Git
---------------------------
+--------------
 Version: 
 
 
 E. Install Python
----------------------------------------
+-----------------
+Version:
 
 
-
-C. HTML Header
+F. Install pip
 --------------
-
-
-D. HTML Body
-------------
-
-
-E. Javascript
--------------
+Version:
