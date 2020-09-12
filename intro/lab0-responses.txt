@@ -1,0 +1,23 @@
+Intro: Responses
+================
+
+D. Install Git
+--------------------------
+Version: 
+
+
+E. Install Python
+---------------------------------------
+
+
+
+C. HTML Header
+--------------
+
+
+D. HTML Body
+------------
+
+
+E. Javascript
+-------------
