@@ -2,8 +2,10 @@
 Work in progress.
 
 ## Setting Up
-1. Python
-2. pip
+1. `pip install pygame`
+2. Terminal text editor. I recommend `micro`, which can be installed with `curl https://getmic.ro | bash` and then `mv micro /usr/bin`.
+3. Code editor. I recommend (VSCode)[https://code.visualstudio.com/].
+3. Windows people need to get xserver to load the Snake. Alternatively, they can get python for windows. This is a one-time thing...
 
 
 ## Python Tutorial
@@ -17,6 +19,10 @@ Work in progress.
 8. dictionaries
 9. imports
 10. classes
+
+# The Game
+Familiarize yourself with the code. There are two classes, `Snake` and `Apple`. If you boot up, you can see a red square and a black square. The black square is the snake, and the red square is the Apple!
+* The board: from (0,0) at top left to (23,23) at bottom right. Directions are defined in a dictionary.
 
 ## Required Features
 1. Move the snake!
