@@ -75,7 +75,7 @@ git commit -m "Submit lab 1"
 git push
 ```
 
-Make a pull request and fill out this whentomeet to schedule a code review.
+Make a pull request and fill out [this whentomeet](https://www.when2meet.com/?9849821-bIqJP) to schedule a code review.
 
 ## The Snake game competition
 The comper/comper team who makes the best snake game, as judged by the CrimTech board, will win a merch of choice from [pythongear.com](https://www.pythongear.com/). If a team wins this, they will each get a Python sticker.
