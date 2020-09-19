@@ -1,9 +1,4 @@
-# Python
-
-## Setting Up
-1. Terminal text editor. I recommend `micro`, which can be installed with `curl https://getmic.ro | bash` and then `mv micro /usr/bin`.
-2. Code editor. I recommend (VSCode)[https://code.visualstudio.com/].
-3. Running python code `python3 [name of the file]`.
+# Python Tutorial!
 
 
 ## Python Tutorial
@@ -19,14 +14,18 @@
 10. [classes](https://www.w3schools.com/python/python_classes.asp)
 
 ## Assignmnet 
-1. Write a program that prints the square root of a given variable.
+1. Write a function that returns the square root of a given variable `n`. If `n` is negative or not a number, returns `-1`. Put your code in `square_root.py`
 
-2. Write a program that randomly generates  numbers in the range [1,10] and prints them, until it generates a 6, at which point it prints it and stops.
+2. Write a program that randomly generates numbers in the range [1,10] and appends them to a list, until it generates a 6, at which point it appends that to the list and returns. Put your code in `random_ints.py`.
+
+Hint: what does `(int) (random.random()*10)` generate?
 
 3. Write a function that takes a list and a number N, and returns True if any two numbers in the list sum to N.
-For example: given the list [1, 2, 4, 5, 6] and number N=10, it returns true, because 4+6=10.
+For example: given the list [1, 2, 4, 5, 6] and number N=10, it returns true, because 4+6=10. Put your code in `sum.py`.
 
-4. Wrie a function that given a dictonary removes the key corresponding to the minimum value and returns changed dictonary.
+Hint: Use `set()`!
+
+4. Write a function that given a dictonary removes the key corresponding to the minimum value and returns changed dictonary. If the dictionary is empty, return the original dictionary.
 For exmaple on input:
 ```Python
 sampleDict = {
@@ -42,6 +41,9 @@ sampleDict = {
   'history': 75
 }
 ```
+Put your code in `rm_smallest.py`
+
+Hint: Google is your friend.
 
 5. Push your code to github! If you do not remeber how to commit your changes steps G-I from the [intro folder](https://github.com/crimtech/crimtech-comp-f20/blob/master/intro/README.md) should be helpful!
 
