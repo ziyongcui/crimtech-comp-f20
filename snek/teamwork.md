@@ -19,6 +19,10 @@ You are in a team of 4, and should assign one person to the following 4 roles:
 
 Note: don't worry if you can't finish all the tasks. **As long as you tried your best, you pass this assignment**.
 
+`git pull git@github.com:crimtech/snake-<your team name>.git`
+
+This is a WIP. Exact roles will change by Wednesday.
+
 ## Generalist
 As the generalist, your goal is to help with the rest of the team by giving an extra pair of eyes/fingers, and merging all the code together.
 
@@ -40,6 +44,8 @@ Tip: You may need to make the snake longer and slow down time (decrease the tick
 3. Moving the apple.
 When the snake ate an apple, we need to move it! Move it to a location that is not on the snake.
 
+`git push`
+
 ## Movement Expert
 As the movement expert, you are in charge of the `move` function, the key function in the snake class.
 
@@ -56,6 +62,8 @@ Tips: Use the dictionary `DIR` and `self.direction` to figure out which way to m
 The snake needs to grow! Change `move` so that the snake will grow in length once it eats an apple.
 
 Tip: Start debugging by setting the coyote time amount to be much higher than 0.1 second.
+
+`git push`
 
 ## Game Designer
 As the game designer, you are in charge of making the pieces fit together.
