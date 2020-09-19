@@ -29,7 +29,7 @@ As the title says, please run `pip install pygame` to install the necessary modu
 
 ## Individual or Teamwork track?
 Please sign up for the track you will do [here](https://forms.gle/EUF76mH1TamrbFkL8) by Wednesday, 9/23.
-* Individual track is good for people who have coding experience and would rather work alone.
-* Teamwork track is good either if you have less experience, or if you want to meet some new people.
+* Individual track is good for people who have coding experience and would rather work alone. You need to submit a working Snake game.
+* Teamwork track is good either if you have less experience, or if you want to meet some new people. Your commitment: answers to the python tutorial, and 90 minutes of your time next week.
 
 Follow the corresponding md file to continue.
