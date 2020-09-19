@@ -1,5 +1,5 @@
 # Individual Track
-In the individual track, you will need to implement the game of Snake and sign up for a code review session.
+In the individual track, you will need to implement the game of Snake and sign up for a code review session. This is due on **10/02**.
 
 ## Acclimating to the Codde
 Run `cp snake_starter_code.py snake.py` to make a copy of the game, and run `python snake.py`. You should see a board with a red and black dot. The two blue dots represent the snake, and the red dot is the apple.
@@ -28,16 +28,54 @@ But, the snake can collide with itself! Change the `collision` function so that 
 Tip: You may need to make the snake longer and slow down time (decrease the tick_time variable) to test this.
 
 5. Eating the apple.
-Detect when the snake is eating the apple. Then, 
+Detect when the snake is eating the apple. Right now, have the program print out "the snake at an apple!" when that occurs. In the next two parts, we will implement what happens when the snake moves the apple.
 
 6. Moving the apple.
+When the snake ate an apple, we need to move it! Move it to a location that is not on the snake.
+
 7. Growing the snake.
+The snake needs to grow! Change `move` so that the snake will grow in length once it eats an apple.
+
 8. Display the score.
+Display the score of the player. You will need to search up on Google how to display pygame text on screen.
 
 ## Optional Features
+You need to implement *two* of the features below. Document which two features by inserting the following code block above where you made the change:
+```
+    # Implements feature #9
+    <your code>
+```
+
 9. Incremental difficulty
+Right now the difficulty of the game is constant. However, we should challenge the player more as their snake gets longer. Change your code so that the snake moves faster as it gets longer, but maintain a good difficulty curve -- people don't like impossible games.
+
 10. Wait for user input
+Right now the snake starts immediately as we open the game. Change your code so that the snake only starts moving when the user presses a key.
+
 11. Try again!
+Change your code so that the game starts again once the snake dies.
+
 12. Color themes
+Implement different color themes. For example, there may be a spaceship theme and you can access it by typing `python snake.py spaceship`. You may need to import the `sys` package.
+
 13. Better Graphics
+For the artistically inclined, make a better looking snake than a bunch of differently colored squares.
+
 14. Coyote Time
+Coyote time is a feature in many platformers that improve the game feel: see, for example, [here](https://www.youtube.com/watch?v=97_jvSPoRDo). In short, we hate when we pressed turn 0.01 second late and the game says we died. So, when the snake is about to die, give a 0.05-0.1 second leeway for the user to press another key.
+
+You will need to change your `move` and `coyote_time` function.s
+
+Tip: Start debugging by setting the coyote time amount to be much higher than 0.1 second.
+
+## Submit!
+```
+git add -A
+git commit -m "Submit lab 1"
+git push
+```
+
+Make a pull request and fill out this whentomeet to schedule a code review.
+
+## The Snake game competition
+The comper/comper team who makes the best snake game, as judged by the CrimTech board, will win a merch of choice from [pythongear.com](https://www.pythongear.com/). If a team wins this, they will each get a Python sticker.

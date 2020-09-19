@@ -13,6 +13,7 @@ git push origin master
 
 The second line updates your local folder with the updated version of this directory, and the third line pushes these changes to your own Github repository.
 
+**Do not continue until you have finished this step.**
 ### Code Editor
 As we start coding, a code editor is invaluable. It adds syntax highlighting, auto completion and other generally nice features.
 
