@@ -47,7 +47,7 @@ Hint: Google is your friend.
 
 5. Push your code to github! If you do not remeber how to commit your changes steps G-I from the [intro folder](https://github.com/crimtech/crimtech-comp-f20/blob/master/intro/README.md) should be helpful!
 
-[Optional if time permits] 6. 
+[Optional if time permits]
 * Define a class to represent companies. Companies will have a name (given at creation), a list of all sales for the year (string of a product), and a dictionary of products (strings, keys) and their prices (float like, values), as well as a list of employees.
 
 * Define a function to add a new product. The function will take the name of the product and the price.
@@ -57,6 +57,3 @@ Hint: Google is your friend.
 * Define an employee class. Employees will have a name as a string, and a company, both given at creation. They will
 also have a role given at creation.  A role is represented by a number, with 1 being a
 new hire, and 10 the ceo. Make the role value optional, with the default set to 1.
-
-
-
