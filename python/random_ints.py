@@ -3,7 +3,14 @@ import random
 def random_ints():
     # Your code here!
     l = []
+    while(True):
+        ran = random.randint(1, 10)
+        l.append(ran)
+        if ran == 6:
+            return l
     return l
+
+
 
 def test():
     N = 10000

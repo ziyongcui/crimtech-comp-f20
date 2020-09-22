@@ -1,5 +1,13 @@
 def rm_smallest(d):
-    # Your code here!
+    if len(d) > 0:
+        res = list(d.keys())[0]
+        remove = d[res]
+        index = res
+        for key in d:
+            if remove > d[key]:
+                remove=d[key]
+                index = key
+        del d[index]
     return d
 
 def test():

@@ -2,6 +2,10 @@ import math
 
 def square_root(n):
     # Your code here!
+    if isinstance(n, int) and n>0:
+        return math.sqrt(n)
+    elif not isinstance(n, int) or n<0:
+        return -1
     return 0
 
 def test():
