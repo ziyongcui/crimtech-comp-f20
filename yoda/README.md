@@ -1,4 +1,4 @@
-# Lab 1: The Force Awakens
+# Lab 2: The Force Awakens
 In this lab, we will teach you how to use some HTML, CSS and Javascript by building a chat with baby Yoda!
 
 Written by Richard "Rick" Xu.
