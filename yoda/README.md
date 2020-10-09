@@ -1,7 +1,5 @@
 # Lab 1: The Force Awakens
-DO NOT READ THIS YET -- this is copied from last year's lab! The instructions will change.
-
-In this lab, we will teach you how to use some HTML, CSS and Javascript.
+In this lab, we will teach you how to use some HTML, CSS and Javascript by building a chat with baby Yoda!
 
 Written by Richard "Rick" Xu.
 
@@ -19,7 +17,7 @@ In this unit you will be using a browser. It is possible to do this using Chrome
 On any website, right click and choose the **"Inspect"** option. Welcome to inspect mode/developer panel! This is super useful for web development, and let us go through what a couple panels do. Some of them have exercises. Record your answers in `lab2-responses.md`.
 0. You can adjust how the browser looks! On the upper bar, there is an option called "Responsive". You can change that to, say, an iPhone X to see how the page looks on an iPhone.
 1. `Elements` contains the html source code of the website. Exercise: there is an easter egg on `crimtech.github.io`. Can you find it in the soruce?
-2. `Console` allows you to type JavaScript expressions. Exercise: type into the console `window.location` while you are on `crimtech.gihub.io`. What's the `protocol` of this?
+2. `Console` allows you to type JavaScript expressions. Exercise: There is some javascript on the website that defined an extra variable. What is that variable, and what is its value?
 3. A webpage can contain code stored on another webpage, such as `adservice.google.com`. `Sources` allows you to see what they are. Exercise: Go to `thecrimson.com`, look at sources and put the name of another source into your responses.
 
 ## C. Welcome to Javascript
