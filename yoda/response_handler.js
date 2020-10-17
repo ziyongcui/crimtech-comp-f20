@@ -21,5 +21,56 @@ let std_quotes = ["Patience you must have, my young padawan.",
 
 function respond() {
     // Your Code Here
-    console.log("Hello World!");
+    var oldtext = document.getElementById("textbox").value;
+    var ranNumIm = Math.floor(Math.random() * 3);
+    var ranNumQ = Math.floor(Math.random() * 5);
+    var ranNumM = Math.floor(Math.random() * 100);
+    var babyYodaM = "Yes, h";
+    document.getElementById("textbox").value= "";
+
+    if (oldtext.includes("cute") || oldtext.includes("baby")){
+      if (oldtext.includes("dark") && oldtext.includes("force")){
+        document.getElementById("yodaimage").setAttribute("src", "img/cute-dark.jpg");
+        for (i = 0; i < ranNumM; i++){
+          babyYodaM = babyYodaM + "m"
+        }
+        document.getElementById("description").setAttribute("data-content", babyYodaM);
+        console.log(newtext);
+      }
+      else if (oldtext.includes("force")){
+        document.getElementById("yodaimage").setAttribute("src", "img/cute-force.jpg");
+        for (i = 0; i < ranNumM; i++){
+          babyYodaM = babyYodaM + "m"
+        }
+        document.getElementById("description").setAttribute("data-content", babyYodaM);
+        console.log(newtext);
+      }
+      else {
+        document.getElementById("yodaimage").setAttribute("src", "img/cute-std.jpg");
+        for (i = 0; i < ranNumM; i++){
+          babyYodaM = babyYodaM + "m"
+        }
+        document.getElementById("description").setAttribute("data-content", babyYodaM);
+        console.log(newtext);
+      }
+    }
+    else {
+      var newImName = moods[ranNumIm];
+      var newIm = "img/regular-" + newImName + ".jpg"
+      document.getElementById("yodaimage").setAttribute("src", newIm)
+      if (ranNumIm == 0){
+        document.getElementById("description").setAttribute("data-content", dark_quotes[ranNumQ]);
+        console.log(newtext);
+      }
+      else if (ranNumIm == 1){
+        document.getElementById("description").setAttribute("data-content", force_quotes[ranNumQ]);
+        console.log(newtext);
+      }
+      else {
+        document.getElementById("description").setAttribute("data-content", std_quotes[ranNumQ]);
+        console.log(newtext);
+      }
+    }
+
+
 }

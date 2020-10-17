@@ -1,9 +1,32 @@
 <!DOCTYPE html>
 <html>
     <head>
-        
+        <script src="response_handler.js"></script>
+
+        <title>Yoda Chat</title>
+        <link rel='shortcut icon' type='image/png' href='img/favicon.ico'>
+        <style>
+        #description::after {
+          content: attr(data-content);
+        }
+        </style>
     </head>
     <body>
-
+      <center>
+        <img id="yodaimage" src="img/regular-std.jpg" alt="Regular Yoda" height="300">
+        <p id="description" data-content="To yoda chat I welcome you. Yes, hmmmmm."></p>
+        <input type="text" id="textbox" name="fname" value="" style="width: 100%">
+        <button id="yodatext" onclick="respond();">Response</button>
+      </center>
+      <script>
+        var input = document.getElementById("textbox");
+        input.addEventListener("keyup", function(event) {
+          if (event.keyCode === 13) {
+          event.preventDefault();
+          document.getElementById("yodatext").click();
+        }
+        });
+      </script>
     </body>
+
 </html>

@@ -9,12 +9,37 @@
         console.log("You found me!");
         function square(i) {
             // Your code here!
-            return 0
+            if (typeof i === 'number')
+            {
+              return i * i
+            }
+            else{
+              return -1
+            }
+
         }
 
         function numberString(i) {
             // Your code here!
-            return ""
+            var text = ""
+            if (typeof i === 'number')
+            {
+              if (i > 0)
+              {
+                for (j = 1; j <=i; j++) {
+                  console.log("hi")
+                  text = text + j
+                }
+                return text
+              }
+              else {
+                return "please give a positive number"
+              }
+            }
+            else {
+              return "please give a positive number"
+            }
+
         }
     </script>
 </body>
