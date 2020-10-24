@@ -6,7 +6,7 @@ The interview will be _open book_, meaning you can use any notes to help us answ
 ## Rough Structure
 We would spend 3 minutes discussing how the comp: how is it going? What is the community like? What can we do to improve? Why are you comping the Crimson? How has the comp changed what you think about the Crimson?
 
-Then, we would spend 3 minutes talking about life outside of the comp: how is your semester? What are you studying, and why those classes? What do you do outside of campus?
+Then, we would spend 3 minutes talking about life outside of the comp: how is your semester? What are you studying, and why those classes? What do you do outside of classes? What do you do for fun?
 
 Finally, we will ask some questions chosen from below.
 
