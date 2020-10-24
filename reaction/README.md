@@ -12,7 +12,7 @@ The main object in React is the *Component*, an object managing its own states t
 2. Check your versions by typing `node -v` and `npm -v`. `npm` comes packaged with Node. To run react, you will need `npm` version 5 or above.
 3. If you do not have version 5 or above, run `npm install -g npm@latest`. This should get you the latest version.
 4. Put your versions of `npm` and `node` into `lab3-responses.md`.
-5. Next, we are ready to use React. Run `create-react-app reactions`, which can take a while. `cd` into the folder and run `npm start`.
+5. Next, we are ready to use React. Run `npx create-react-app reactions`, which can take a while. `cd` into the folder and run `npm start`.
 
 Your browser should be loading up `localhost:3000` after this, and you should see a spinning react logo. If so, your installation is complete!
 
