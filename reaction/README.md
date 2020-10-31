@@ -28,7 +28,6 @@ In this lab, you will be building an app that measures your reaction time. Sadly
 
 Complete the items above, and check back here after your midterm interview! However, if you are super excited, below are the steps I think I am working off of to design the lab.
 
-<<<<<<< HEAD
 # E. Setting Up.
 Run `npx create-react-app reactions` in this folder. The terminal will report any installation error. If so, you can either fix them by seraching on Google or call us over.
 
