@@ -78,17 +78,3 @@ We recommend using a flex box, which you can learn more about at (https://www.w3
 
 # L: Submit!
 Submit your assignment like usual :)
-=======
-Rough plan:
-* Basing this lab on [this website](https://humanbenchmark.com/tests/reactiontime).
-* Have a component called `Game`. It will render two objects: a button and a div. 
-* Have a state that stores whether the game is going or not, the last time the button is clicked, and how long to wait for.
-* When we first click the button, we check `gameStarted`. If false, we should update `lastClicked`, randomize `waitTime` and change `gameStarted` to true. If true, we should check current time vs lastClicked and output the correct message:
-  * If `diff < waitTime`, the person clicked early.
-  * If `diff >= waitTime`, output `Your reaction time is {diff - waitTime}`.
-* We need to have a big button -> some CSS work.
-  * Making buttons tall tend to be the hardest part of CSS. May need to do something with `height`.
-* We also need to change the color of the button after a certain amount of time. It seems like people to this with `setTimeout`.
-  * On the step where we check randomize `waitTime`, we should also do a setTimeout. This will call a function that changes the color of the button. This should be doable with a bit of Javascript.
-    * [This](https://forum.freecodecamp.org/t/an-easy-way-to-change-css-in-react/326708) seems to be a way to do it.
->>>>>>> 9ce8bf7d3830e88565b94092b14c66aa96857762
