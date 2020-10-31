@@ -9,27 +9,31 @@ class Panel extends React.Component {
     this.process_click = this.process_click.bind(this);
   }
   handle_color = (c) => {
-    this.setState({color: c});
+    // TODO: Your code here!
+    this.setState({color:c});
   }
   start_count() {
-    var dur = Math.random() * 5 + 2;
+    // TODO: Your code here!
+    var time  = Math.random() * 5 + 2;
     this.setState({
       start_time: window.performance.now(),
-      true_duration: dur,
+      true_duration: time,
       counting: true,
       color: 'darkred'
     });
     this.timer = setTimeout(
-      () => this.handle_color('green'), dur * 1000
+      () => this.handle_color('green'), time * 1000
     )
   }
   end_count() {
-    var diff = window.performance.now() - this.state.start_time, dur = this.state.true_duration * 1000;
-    if (diff > dur) {
+    // TODO: Your code here!
+    var time = this.state.true_duration * 1000;
+    var diff = window.performance.now() - this.state.start_time
+    if (diff > time) {
       this.setState({
         ran_once: true,
         counting: false,
-        reaction_time: diff - dur
+        reaction_time: diff - time
       });
     }
   }
@@ -39,15 +43,21 @@ class Panel extends React.Component {
     } else this.start_count();
   }
   render() {
-    let msg;
+    let msg = "Hello World!";
+    // TODO: Your code here!
     if (this.state.counting) {
-      if (this.state.color != 'green')
+      if (this.state.color != 'green'){
         msg = "Wait for Green";
-      else msg = "Click!";
-    } else if (this.state.ran_once) {
-      msg = "Your reaction time is " + Math.round(this.state.reaction_time) + "ms.";
-    } else {
-      msg = "Click me to begin!";
+      }
+      else{
+        msg = "Click";
+      }
+    }
+    else if (this.state.ran_once) {
+      msg = "Your reaction time is " + Math.round(this.state.reaction_time) + "ms";
+    }
+    else {
+      msg = "Click to begin"
     }
     return (
       <div className = "PanelContainer" onClick = {this.process_click} style={ { background: this.state.color} }>
